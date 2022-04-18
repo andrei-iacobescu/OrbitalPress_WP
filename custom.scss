@@ -1,0 +1,409 @@
+
+/************** WordPress CUSTOM CSS  ***************/
+
+
+
+
+section#navbar {
+    nav {
+        ul.navbar-nav {
+            .custom-menu-class {
+                width: 100%;
+                ul.menu {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 0 !important;
+                    padding-left: 0 !important;
+                    width: 100%;
+                    list-style-type: none;
+                   
+                    li:first-of-type {
+                       padding-left: 0;
+                        
+                    }
+               
+                }
+            }
+        }
+    }
+}
+
+
+
+section#main-content {
+    section#news-post {
+        .container {
+            .news-post-wrapper {
+                .row {
+                    .global-first-col {
+                        .tag {
+                            width: 130px;
+                            ul.post-categories {
+                                list-style-type: none;
+                                margin: 0;
+                                padding: 0;
+        
+                                li {
+                                    font-size: 14px;
+                                    
+                                }
+                            }
+                        }
+
+
+                        .news-item-post {
+                            .news-item-post-wrapper {
+                                .news-content {
+                                    .comments {
+                                        .row {
+                                            .comments-area {
+                                                h2 {
+                                                    display: none;
+                                                }
+
+                                                .comment-list {
+                                                    .comment-body {
+                                                        
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+
+
+
+                }
+               
+            }
+        }
+    }
+
+    .container {
+        .row {
+            .first-global-col {
+                .latest-news {
+                    
+                    .main-tag {
+                        width: 100%;
+                        
+                        .tag {
+                            width: 195px;
+                            margin-right: 10em;
+                            
+                            span {
+                                position: absolute;
+                                // margin-left: auto;
+                                margin-right: auto;
+                                left: 0;
+                                right: 0;
+                                text-align: center;
+                                width: 180px;
+
+                            }
+                        }
+                        
+                        &::after {
+                            content: "";
+                            width: 100%;
+                            display: block;
+                            background-color: #434343;
+                            height: 5px;
+                            margin-top: -0.51px;
+                        }
+
+                    }
+
+                   
+                       
+
+                   
+                }
+            }
+
+
+
+            .second-global-col {
+                padding-right: 0;
+                padding-left: 55px;
+                .tagline-top-posts {
+                     margin-top: 150px;
+                     span {
+                       
+                        position: absolute;
+                        margin-right: auto;
+                        left: 0;
+                        right: 0;
+                        text-align: center;
+                        width: 180px;
+                    }
+                }
+
+                .tagline-must-read {
+                    margin-top: 147px;
+                    span {
+                      
+                        position: absolute;
+                        margin-right: auto;
+                        left: 0;
+                        right: 0;
+                        text-align: center;
+                        width: 180px;
+                    }
+                }
+
+                .tagline-must-read-page {
+                     margin-top: 147px;
+                    span {
+                       
+                        position: absolute;
+                        margin-right: auto;
+                        left: 0;
+                        right: 0;
+                        text-align: center;
+                        width: 180px;
+                    }
+                }
+
+                .must-read-news {
+                    ul {
+                        li {
+                            a.post-title {
+                                color: red;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+}
+
+
+
+
+
+// PAGE.PHP MAIN CAROUSEL
+section#main-carousel.main-carousel-page {
+    margin-bottom: 330px;
+    height: 352px;
+    .container {
+        .row {
+            .main-carousel-wrapper-one {
+                margin-bottom: 15px;
+                height: 352px;
+                .main-carousel-item {
+                    height: 352px;
+
+                    .overlay {
+                        width: 100%;
+                        
+                        .content.desktop {
+                            top: 48%;
+                            .title {
+                                h2 {
+                                    font-size: 18.5px;
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .date {
+                                h3 {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .main-carousel-wrapper-flex {
+                height: 216px;
+
+                .main-carousel-wrapper-flex-one {
+                    height: 216px;
+
+                    .carousel-one,
+                    .carousel-two {
+                        .main-carousel-item {
+                            height: 216px;
+
+                            .content {
+                                top: 35%;
+                                padding-left: 20px;
+
+                                .tagline {
+                                    font-size: 10px;
+                                    width: 21%;
+                                    margin-bottom: 10px;
+                                }
+
+                                .title {
+                                    h2 {
+                                        font-size: 17px;
+                                        margin-bottom: 8px;
+                                    }
+                                }
+                                .description {
+                                    p {
+                                        font-size: 13px;
+                                        width: 90%;
+                                    }
+                                }
+                                .date {
+                                    h3 {
+                                        font-size: 10.3px;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+section#main-carousel.main-carousel-front-page {
+    .container {
+        .row {
+            .main-carousel-wrapper-one {
+                .main-carousel-item {
+                    .overlay {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+section#category-banner {
+    .banner {
+        .container {
+            .content {
+                transform: translateY(75%);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination {
+    border: none;
+    width: 100%;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    .page-numbers {
+        color: #9f6ad5;
+        // background-color: green;
+        // display: inline-block;
+        // margin-top: 10px;
+        // width: 16px;
+        text-align: center;
+        border: 1px solid #9f6ad5;
+        padding: 3px 10px;
+        transition: .2s;
+        margin-right: 10px;
+        &:hover {
+            background-color: #9f6ad5;
+            border: 1px solid transparent;
+            color: #fff;
+            transition: .2s;
+        }
+       
+    }
+
+    .page-numbers.current {
+        background-color: #9f6ad5;
+        border: 1px solid transparent;
+        color: #fff;
+    }
+
+      
+
+}
+
+
+
+
+
+
+
+
+
+
+.image-container {
+    img {
+        object-fit: cover !important;
+    }
+}

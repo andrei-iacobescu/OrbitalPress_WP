@@ -1,0 +1,9 @@
+section#category-banner .banner {
+  background-image: url("../images/gentrit-sylejmani-JjUyjE-oEbM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 442px;
+}

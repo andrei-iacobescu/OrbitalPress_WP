@@ -1,0 +1,322 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section#category-banner {
+  position: relative;
+}
+section#category-banner .bg-overlay {
+  width: 100%;
+  height: 442px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+section#category-banner .banner {
+  background-image: url("../images/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 442px;
+}
+section#category-banner .container {
+  position: relative;
+  z-index: 3;
+}
+section#category-banner .container .breadcrumb {
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+section#category-banner .container .breadcrumb a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+}
+section#category-banner .container .breadcrumb a:hover {
+  color: #7639B4;
+}
+section#category-banner .container .content {
+  color: #fff;
+}
+section#category-banner .container .content .title {
+  margin-bottom: 20px;
+}
+section#category-banner .container .content .title h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section#category-banner .container .content .title h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 350px) and (max-width: 575px) {
+  section#category-banner .container .content .title h1 {
+    font-size: 26px;
+  }
+}
+section#category-banner .container .content .tags {
+  margin-bottom: 20px;
+}
+section#category-banner .container .content .tags span {
+  background-color: #7639B4;
+  padding: 4px 8px 5px;
+  margin: 0px 5px 0px 0px;
+  font-size: 11px;
+  font-weight: 400;
+}
+section#category-banner .container .content .description p {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section#category-banner .container .content .description p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 350px) and (max-width: 575px) {
+  section#category-banner .container .content .description p {
+    font-size: 14px;
+  }
+}
+
+section#main-content {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+section#main-content .container .row .first-global-col .latest-news .tagline {
+  position: relative;
+}
+section#main-content .container .row .first-global-col .latest-news .tagline span {
+  position: absolute;
+  left: 41px;
+  top: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-style: italic;
+  color: #fff;
+}
+section#main-content .container .row .first-global-col .latest-news .tagline span.line {
+  width: 100%;
+  height: 5px;
+  left: 0;
+  top: 32px;
+  background-color: #434343;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item {
+  margin-top: 40px;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item a {
+  text-decoration: none;
+  color: inherit;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .img-container {
+  position: relative;
+  margin-bottom: 23px;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .img-container img {
+  width: 100%;
+  height: 165px;
+  object-fit: cover;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .img-container img {
+    height: 435px;
+  }
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .img-container .tagline {
+  background-color: #000;
+  color: #fff;
+  width: 67px;
+  height: 21px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .img-container .tagline p {
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+  font-size: 21px;
+  font-weight: 450;
+  line-height: 1.4;
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+    font-size: 20.5px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+    font-size: 19px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+    font-size: 19px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 350px) and (max-width: 575px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .title h1 {
+    font-size: 16px;
+  }
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+  display: flex;
+  font-size: 11px;
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+    font-size: 12.5px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+    font-size: 12.4px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+    font-size: 11.5px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+    font-size: 13px;
+  }
+}
+@media (min-width: 350px) and (max-width: 575px) {
+  section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date {
+    font-size: 10.6px;
+  }
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date .author {
+  font-weight: 650;
+  margin-right: 10px;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date .time {
+  margin-left: 10px;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date .no-comments {
+  margin-left: auto;
+  width: 16px;
+  height: 21px;
+  color: #fff;
+  text-align: center;
+  background-image: url("../images/Path-3.png");
+  background-repeat: none;
+  background-position-y: center;
+  display: block;
+  position: relative;
+}
+section#main-content .container .row .first-global-col .latest-news .row.news-wrapper .news-item .box-content .date .no-comments span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+}
+section#main-content .container .row .first-global-col .page-navigation {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#main-content .container .row .second-global-col .tagline {
+  position: relative;
+}
+section#main-content .container .row .second-global-col .tagline span {
+  position: absolute;
+  left: 46px;
+  top: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-style: italic;
+  color: #fff;
+}
+section#main-content .container .row .second-global-col .tagline span.line {
+  width: 100%;
+  height: 5px;
+  left: 0;
+  top: 32px;
+  background-color: #434343;
+}
+section#main-content .container .row .second-global-col .stay-orbital-banner .stay-orbital-banner-wrapper {
+  background-color: #434343;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+section#main-content .container .row .second-global-col .stay-orbital-banner .stay-orbital-banner-wrapper .stay-orbital-banner-content {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  transform: translateY(9%);
+}
+section#main-content .container .row .second-global-col .stay-orbital-banner .stay-orbital-banner-wrapper .stay-orbital-banner-content img {
+  width: 77px;
+  height: 77px;
+  margin-bottom: 30px;
+}
+section#main-content .container .row .second-global-col .stay-orbital-banner .stay-orbital-banner-wrapper .stay-orbital-banner-content p {
+  font-weight: 650;
+  font-size: 14px;
+  font-style: italic;
+}
+section#main-content .container .row .second-global-col .stay-orbital-banner .stay-orbital-banner-wrapper .stay-orbital-banner-content p:first-of-type {
+  margin-bottom: 0;
+}
+section#main-content .container .row .second-global-col .stay-orbital-banner .stay-orbital-banner-wrapper .stay-orbital-banner-content span {
+  color: #7639B4;
+}
+section#main-content .container .row .second-global-col .must-read-news .must-read-item {
+  margin-top: 20px;
+}
+section#main-content .container .row .second-global-col .must-read-news .must-read-item a {
+  font-weight: 600;
+  font-size: 17px;
+}
+section#main-content .container .row .second-global-col .must-read-news .must-read-item .date span.author {
+  font-weight: 650;
+  font-size: 10px;
+}
+section#main-content .container .row .second-global-col .must-read-news .must-read-item .date span.date {
+  font-size: 10px;
+  color: #434343;
+  margin-left: 15px;
+}
+section#main-content .container .row .second-global-col .must-read-news .must-read-item .divider {
+  margin-top: 15px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.05);
+}

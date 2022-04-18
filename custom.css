@@ -1,0 +1,193 @@
+/************** WordPress CUSTOM CSS  ***************/
+section#navbar nav ul.navbar-nav .custom-menu-class {
+  width: 100%;
+}
+section#navbar nav ul.navbar-nav .custom-menu-class ul.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;
+  list-style-type: none;
+}
+section#navbar nav ul.navbar-nav .custom-menu-class ul.menu li:first-of-type {
+  padding-left: 0;
+}
+
+section#main-content section#news-post .container .news-post-wrapper .row .global-first-col .tag {
+  width: 130px;
+}
+section#main-content section#news-post .container .news-post-wrapper .row .global-first-col .tag ul.post-categories {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+section#main-content section#news-post .container .news-post-wrapper .row .global-first-col .tag ul.post-categories li {
+  font-size: 14px;
+}
+section#main-content section#news-post .container .news-post-wrapper .row .global-first-col .news-item-post .news-item-post-wrapper .news-content .comments .row .comments-area h2 {
+  display: none;
+}
+section#main-content .container .row .first-global-col .latest-news .main-tag {
+  width: 100%;
+}
+section#main-content .container .row .first-global-col .latest-news .main-tag .tag {
+  width: 195px;
+  margin-right: 10em;
+}
+section#main-content .container .row .first-global-col .latest-news .main-tag .tag span {
+  position: absolute;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 180px;
+}
+section#main-content .container .row .first-global-col .latest-news .main-tag::after {
+  content: "";
+  width: 100%;
+  display: block;
+  background-color: #434343;
+  height: 5px;
+  margin-top: -0.51px;
+}
+section#main-content .container .row .second-global-col {
+  padding-right: 0;
+  padding-left: 55px;
+}
+section#main-content .container .row .second-global-col .tagline-top-posts {
+  margin-top: 150px;
+}
+section#main-content .container .row .second-global-col .tagline-top-posts span {
+  position: absolute;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 180px;
+}
+section#main-content .container .row .second-global-col .tagline-must-read {
+  margin-top: 147px;
+}
+section#main-content .container .row .second-global-col .tagline-must-read span {
+  position: absolute;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 180px;
+}
+section#main-content .container .row .second-global-col .tagline-must-read-page {
+  margin-top: 147px;
+}
+section#main-content .container .row .second-global-col .tagline-must-read-page span {
+  position: absolute;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 180px;
+}
+section#main-content .container .row .second-global-col .must-read-news ul li a.post-title {
+  color: red;
+}
+
+section#main-carousel.main-carousel-page {
+  margin-bottom: 330px;
+  height: 352px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-one {
+  margin-bottom: 15px;
+  height: 352px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-one .main-carousel-item {
+  height: 352px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-one .main-carousel-item .overlay {
+  width: 100%;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-one .main-carousel-item .overlay .content.desktop {
+  top: 48%;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-one .main-carousel-item .overlay .content.desktop .title h2 {
+  font-size: 18.5px;
+  margin-bottom: 0;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-one .main-carousel-item .overlay .content.desktop .date h3 {
+  font-size: 11px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex {
+  height: 216px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one {
+  height: 216px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-one .main-carousel-item,
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-two .main-carousel-item {
+  height: 216px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-one .main-carousel-item .content,
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-two .main-carousel-item .content {
+  top: 35%;
+  padding-left: 20px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-one .main-carousel-item .content .tagline,
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-two .main-carousel-item .content .tagline {
+  font-size: 10px;
+  width: 21%;
+  margin-bottom: 10px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-one .main-carousel-item .content .title h2,
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-two .main-carousel-item .content .title h2 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-one .main-carousel-item .content .description p,
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-two .main-carousel-item .content .description p {
+  font-size: 13px;
+  width: 90%;
+}
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-one .main-carousel-item .content .date h3,
+section#main-carousel.main-carousel-page .container .row .main-carousel-wrapper-flex .main-carousel-wrapper-flex-one .carousel-two .main-carousel-item .content .date h3 {
+  font-size: 10.3px;
+}
+
+section#main-carousel.main-carousel-front-page .container .row .main-carousel-wrapper-one .main-carousel-item .overlay {
+  width: 100%;
+}
+
+section#category-banner .banner .container .content {
+  transform: translateY(75%);
+}
+
+.pagination {
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.pagination .page-numbers {
+  color: #9f6ad5;
+  text-align: center;
+  border: 1px solid #9f6ad5;
+  padding: 3px 10px;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+.pagination .page-numbers:hover {
+  background-color: #9f6ad5;
+  border: 1px solid transparent;
+  color: #fff;
+  transition: 0.2s;
+}
+.pagination .page-numbers.current {
+  background-color: #9f6ad5;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.image-container img {
+  object-fit: cover !important;
+}
